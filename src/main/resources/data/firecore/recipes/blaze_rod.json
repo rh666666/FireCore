@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#@#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "firecore:fire_core"
+        },
+        "@": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:blaze_rod"
+    }
+}

@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "firecore",
+	"version": "${version}",
+	"name": "FireCore",
+	"description": "合成烈焰棒的中间物质——离火之精。",
+	"authors": [
+		"adoleiiiiii"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/firecore/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.adole.firecore.FireCore"
+		],
+		"client": [
+			"com.adole.firecore.FireCoreClient"
+		]
+	},
+	"mixins": [
+		"firecore.mixins.json",
+		{
+			"config": "firecore.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.14.0",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

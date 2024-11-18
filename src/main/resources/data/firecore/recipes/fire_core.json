@@ -1,0 +1,7 @@
+{
+    "type": "minecraft:campfire_cooking",
+    "ingredient": {
+        "item": "firecore:coal_nugget"
+    },
+    "result": "firecore:fire_core"
+}
