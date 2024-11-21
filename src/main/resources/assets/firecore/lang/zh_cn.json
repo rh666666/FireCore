@@ -1,5 +1,8 @@
 {
     "item.firecore.fire_core": "离火之精",
     "item.firecore.fire_core.tooltip": "汲取火焰精华后所得的碎片",
-    "item.firecore.coal_nugget": "炭粒"
+    "item.firecore.coal_nugget": "炭粒",
+    "item.firecore.mountain_splitting_axe": "开山斧",
+    "item.firecore.mountain_splitting_axe.tooltip": "盘古开天辟地用的斧子",
+    "item.firecore.mountain_splitting_axe.tooltip2": "仅指令获取"
 }

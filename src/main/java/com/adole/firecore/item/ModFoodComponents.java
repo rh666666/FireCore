@@ -14,6 +14,7 @@ public class ModFoodComponents {
             .statusEffect(new StatusEffectInstance(StatusEffects.RESISTANCE, 5 * 60 * 20, 4), 1.0f)
             .statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 20 * 20, 1), 1)
             .statusEffect(new StatusEffectInstance(StatusEffects.NIGHT_VISION, 3 * 60 * 20), 1)
+            .statusEffect(new StatusEffectInstance(StatusEffects.SPEED, 10 * 20), 1)
         .build();
 }
  

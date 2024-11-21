@@ -1,6 +1,8 @@
 package com.adole.firecore.item;
 
+import com.adole.firecore.item.Materials.MSTools;
 import com.adole.firecore.item.custom.FireCore;
+import com.adole.firecore.item.custom.MountainSplittingAxe;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
@@ -11,12 +13,16 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public final class ModItems {
+
     public static final String MOD_ID = "firecore";
+	public static final float INFINITY = 1.0f/0.0f;
+
     private ModItems() {}
  
 	// 新物品的实例
 	public static final Item COAL_NUGGET = register("coal_nugget", new Item(new Item.Settings()));
 	public static final Item FIRE_CORE = register("fire_core", new FireCore(new Item.Settings().food(ModFoodComponents.FIRE_CORE)));
+	public static final Item MOUNTAIN_SPLITTING_AXE = register("mountain_splitting_axe", new MountainSplittingAxe(MSTools.INSTANCE, 0, INFINITY, new Item.Settings()));
  
 	public static <T extends Item> T register(String path, T item) {
 		return Registry.register(Registries.ITEM, new Identifier(MOD_ID, path), item);

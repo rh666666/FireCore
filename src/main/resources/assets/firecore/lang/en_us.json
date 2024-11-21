@@ -1,5 +1,8 @@
 {
     "item.firecore.fire_core": "Fire Core",
     "item.firecore.fire_core.tooltip": "Fragments obtained after absorbing the essence of flame",
-    "item.firecore.coal_nugget": "Coal Nugget"
+    "item.firecore.coal_nugget": "Coal Nugget",
+    "item.firecore.mountain_splitting_axe": "Mountains-Splitting Axe",
+    "item.firecore.mountain_splitting_axe.tooltip": "Used by Pangu to separate heaven and earth",
+    "item.firecore.mountain_splitting_axe.tooltip2": "Only given by command"
 }
